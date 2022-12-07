@@ -1,18 +1,17 @@
-// whether number is prime or not
+problem 1. whether number is prime or not
 
 
 
-
-let num=7
+let num=7;
 let count=0;
-for(let i=1;i<=num;i++)
+for(let i=1;i<num;i++)
 {
     if(num%2==0){
-          count--;
+          count++;
        }
 }
 
-if(count==7){
+if(count==2){
    console.log("Given number is prime");
    }
 else{
